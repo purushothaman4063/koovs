@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78050" started-at="2019-02-18T04:29:05Z" finished-at="2019-02-18T04:30:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78050" started-at="2019-02-18T04:29:05Z" finished-at="2019-02-18T04:30:23Z">
+      <class name="koovsdemo.methodwithkoovs">
+        <test-method status="PASS" signature="homepage()[pri:0, instance:koovsdemo.methodwithkoovs@51081592]" name="homepage" duration-ms="72499" started-at="2019-02-18T04:29:05Z" finished-at="2019-02-18T04:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="SelectWomen()[pri:0, instance:koovsdemo.methodwithkoovs@51081592]" name="SelectWomen" duration-ms="1089" started-at="2019-02-18T04:30:17Z" depends-on-methods="koovsdemo.methodwithkoovs.homepage" finished-at="2019-02-18T04:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectWomen -->
+        <test-method status="PASS" signature="Selectdress()[pri:0, instance:koovsdemo.methodwithkoovs@51081592]" name="Selectdress" duration-ms="4399" started-at="2019-02-18T04:30:18Z" depends-on-methods="koovsdemo.methodwithkoovs.SelectWomen" finished-at="2019-02-18T04:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectdress -->
+      </class> <!-- koovsdemo.methodwithkoovs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
